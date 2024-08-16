@@ -1,0 +1,94 @@
+/* .App {
+  width: 100%;
+  height: 1500px;
+} */
+main {
+  width: 100%;
+  z-index: 9999;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+}
+section,
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section,
+img#mountain_front {
+  z-index: 10;
+}
+
+.title {
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+  width: 100%;
+  top: 400px;
+  z-index: 9;
+}
+
+/* #mountain_front {
+  position: fixed;
+  background-color: transparent;
+}
+
+#mountain_back {
+  background-color: transparent;
+  position: fixed;
+} */
+/* .site-header {
+  background-image: url("/public/images/mountain_1.png");
+  background-position: bottom 50px;
+  background-size: cover;
+  padding: 5rem;
+  min-height: 80vh;
+  position: relative;
+  z-index: 99999;
+} */
+/* 
+.site-header-mask {
+  position: absolute;
+  inset: 0;
+  top: 120px;
+  background: rgb(0 0 0 / 0.5);
+
+  -webkit-mask: url("/public/images/Vector.svg");
+  -webkit-mask-position: center bottom;
+  -webkit-mask-size: 100%;
+
+  mask: url("/public/images/Vector.svg");
+  mask-position: center bottom;
+  mask-size: cover;
+  background-color: greenyellow;
+} */
+
+/* .site-title,
+.site-title2 {
+  position: absolute;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 16px;
+  width: 100%;
+  z-index: 999999;
+} */
+
+.site-title2 {
+  top: 300px;
+}
